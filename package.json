@@ -1,0 +1,22 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "Proyecto DH Mercado Liebre",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fliberatore88/mercadoLiebre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fliberatore88/mercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/Fliberatore88/mercadoLiebre#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
