@@ -1,26 +1,54 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #EAC926;
 }
 h4 {
     font-size: 24px;
 }
 p {
     font-size: 12px;
+    color: #000000
 }
-
+#subtitulo { 
+    text-align: center;
+}
 .precios {
   font-size: 18px;               
 }
 
 .descuentos {
     font-size: 16px;
+    color: #39b54a;
 }
 .burger-menu{
     text-align: center;
+    color: #FFFFFF;
+    height: 25px;
 }
+.fa-bars {
+    background-color: rgba(4, 92, 255, 0.952);
+    width: 50px;
+    height: 25px;
+}
+#buscador {
+    text-align: center;
+}
+
 /*Tamaños Tipográficos
 Cuerpos de texto: 12px
 Titulares (Basado en tu última visita/Ofertas): 24px
 Precios: 18px
 Descuentos: 16px
 Descripciones: 16px*/
+
+/*● Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
