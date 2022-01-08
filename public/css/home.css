@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
 header {
     background-color: #EAC926;
 }
@@ -26,12 +27,14 @@ p {
 .burger-menu{
     text-align: center;
     color: #FFFFFF;
-    height: 25px;
 }
 .fa-bars {
     background-color: rgba(4, 92, 255, 0.952);
-    width: 30px;
+    padding: 4px;
+    border-radius: 15%;
+    width: 20px;
     margin-top: 8px;
+    margin: auto;
 }
 #buscador {
     text-align: center;
