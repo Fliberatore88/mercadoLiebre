@@ -41,7 +41,11 @@ p {
     text-align: center;
 }
 .footer-h5 {
-margin: 6px;
+margin: 4px;
+}
+.footer-img {
+    width: 2em;
+    margin-bottom: 10px;
 }
 
 /*Tamaños Tipográficos
