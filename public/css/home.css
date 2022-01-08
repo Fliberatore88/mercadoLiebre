@@ -40,6 +40,9 @@ p {
 .footer {
     text-align: center;
 }
+.footer-h5 {
+margin: 6px;
+}
 
 /*Tamaños Tipográficos
 Cuerpos de texto: 12px
