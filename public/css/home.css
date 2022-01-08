@@ -30,8 +30,8 @@ p {
 }
 .fa-bars {
     background-color: rgba(4, 92, 255, 0.952);
-    width: 50px;
-    height: 25px;
+    width: 30px;
+    margin-top: 8px;
 }
 #buscador {
     text-align: center;
