@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -30,11 +33,11 @@ p {
 }
 .fa-bars {
     background-color: rgba(4, 92, 255, 0.952);
-    padding: 4px;
-    border-radius: 15%;
-    width: 20px;
-    margin-top: 8px;
-    margin: auto;
+    border-radius: 10%;
+    width: 30px;
+    height: 20px;
+    padding: 2px;
+    margin-bottom: 10px;
 }
 #buscador {
     text-align: center;
