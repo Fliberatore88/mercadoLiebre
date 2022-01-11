@@ -54,6 +54,9 @@ margin: 4px;
     margin-top: 10px;
     margin-bottom: 5px;
 }
+.img-banner {
+    width: 100vw;
+}
 
 /*Tamaños Tipográficos
 Cuerpos de texto: 12px
