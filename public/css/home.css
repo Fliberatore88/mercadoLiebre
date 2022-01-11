@@ -1,27 +1,21 @@
 * {
     box-sizing: border-box;
 }
+/* Body general */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-color: #ebebeb;
 }
+/* Body general */
 
+
+/* HEADER */
 header {
     background-color: #EAC926;
 }
-.img-banner {
-    width: 100%;
-    margin-bottom: -4px;
-}
-main {
-    background-color: #ebebeb;
-    width: 90vw;
-    margin: auto;
+#buscador {
     text-align: center;
-}
-.articulo {
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 .burger-menu{
     text-align: center;
@@ -35,6 +29,35 @@ main {
     padding: 2px;
     margin-bottom: 10px;
 }
+.img-banner {
+    width: 100%;
+    margin-bottom: -4px;
+}
+/* HEADER */
+
+
+
+/* MAIN */
+main {
+    background-color: #FFFFFF;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+.articulo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+
+.logo-shipping {
+    width: 15%;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    margin-bottom: 1px;
+}
 h4 {
     font-size: 24px;
 }
@@ -45,18 +68,28 @@ p {
 #subtitulo { 
     text-align: center;
 }
+
 .precios {
-  font-size: 18px;               
+  font-size: 18px;  
+  margin-bottom: 1px;
+  margin: 1px;
+  font-weight: 600;
 }
 
 .descuentos {
     font-size: 16px;
     color: #39b54a;
+    margin: 2px;
+}
+.descripciones { 
+    margin: 2px;
 }
 
-#buscador {
-    text-align: center;
-}
+/* MAIN */
+
+
+
+/* FOOTER */
 
 .footer {
     text-align: center;
@@ -69,7 +102,7 @@ margin: 4px;
     margin-top: 10px;
     margin-bottom: 5px;
 }
-
+/* FOOTER */
 
 /*Tamaños Tipográficos
 Cuerpos de texto: 12px
