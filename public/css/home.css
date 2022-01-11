@@ -9,6 +9,32 @@ body {
 header {
     background-color: #EAC926;
 }
+.img-banner {
+    width: 100%;
+    margin-bottom: -4px;
+}
+main {
+    background-color: #ebebeb;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+}
+.articulo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.burger-menu{
+    text-align: center;
+    color: #FFFFFF;
+}
+.fa-bars {
+    background-color: rgba(4, 92, 255, 0.952);
+    border-radius: 10%;
+    width: 30px;
+    height: 20px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
 h4 {
     font-size: 24px;
 }
@@ -27,18 +53,7 @@ p {
     font-size: 16px;
     color: #39b54a;
 }
-.burger-menu{
-    text-align: center;
-    color: #FFFFFF;
-}
-.fa-bars {
-    background-color: rgba(4, 92, 255, 0.952);
-    border-radius: 10%;
-    width: 30px;
-    height: 20px;
-    padding: 2px;
-    margin-bottom: 10px;
-}
+
 #buscador {
     text-align: center;
 }
@@ -54,9 +69,7 @@ margin: 4px;
     margin-top: 10px;
     margin-bottom: 5px;
 }
-.img-banner {
-    width: 100vw;
-}
+
 
 /*Tamaños Tipográficos
 Cuerpos de texto: 12px
@@ -73,3 +86,12 @@ Gris oscuro: #666;
 Gris claro: #ebebeb;
 Verde: #39b54a;
 */
+/*Debemos centrar la sección main y que ocupe un 90% del ancho de la pantalla.
+● Entre cada artículo hay una separación de 10 píxeles.
+● Nos piden que manejemos el logo del envío, el precio, el porcentaje de descuento
+y la descripción del artículo como elementos de una caja dentro de la caja general
+del artículo.
+● Nos piden que la misma tenga un borde superior de 1 píxel, línea sólida y color
+#ebebeb.
+● Debe tener separado el contenido de sus bordes en 15 píxeles en cada uno de sus
+lados.*/
