@@ -53,10 +53,14 @@ main {
 
 
 .logo-shipping {
-    width: 15%;
-    border: solid 1px #39b54a;
+    width: 30px;
+    border: solid 0.5px #39b54a;
     border-radius: 100%;
     margin-bottom: 1px;
+    transform-origin: 0px 0px;
+    fill: #39b54a;
+    color: #39b54a;
+    padding: 3px;
 }
 h4 {
     font-size: 24px;
@@ -80,6 +84,7 @@ p {
     font-size: 16px;
     color: #39b54a;
     margin: 2px;
+    font-weight: 500;
 }
 .descripciones { 
     margin: 2px;
@@ -128,3 +133,5 @@ del artículo.
 #ebebeb.
 ● Debe tener separado el contenido de sus bordes en 15 píxeles en cada uno de sus
 lados.*/
+
+/* el truck vino con esto en el HTML width="18" height="15" viewBox="0 0 18 15" */
