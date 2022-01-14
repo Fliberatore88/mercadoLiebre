@@ -116,7 +116,10 @@ p {
   margin-bottom: 1px;
   margin: 1px;
   font-weight: 600;
-  width: 30%;
+}
+
+.container-prices-discounts .precios {
+    width: 30%;
 }
 
 .descuentos {
@@ -124,6 +127,8 @@ p {
     color: #39b54a;
     margin: 2px;
     font-weight: 500;
+}
+.container-prices-discounts .descuentos {
     width: 70%;
 }
 .descripciones { 
