@@ -14,8 +14,22 @@ body {
 header {
     background-color: #EAC926;
 }
-#buscador {
+#search-lens {
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.fa-search {
+background-color: #FFFFFF;
+}
+.Header-Navbar {
+    display: none;
+}
+#icon-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .burger-menu{
     text-align: center;
@@ -28,6 +42,7 @@ header {
     height: 20px;
     padding: 2px;
     margin-bottom: 10px;
+    display: block;
 }
 .img-banner {
     width: 100%;
@@ -42,7 +57,10 @@ main {
     background-color: #FFFFFF;
     width: 90vw;
     margin: auto;
-    text-align: center;
+}
+article img {
+ width: 100%;
+ max-width: 700px;
 }
 .articulo {
     margin-top: 5px;
@@ -52,7 +70,8 @@ main {
 }
 
 
-.logo-shipping {
+.container-truck {
+    display: flex;
     width: 30px;
     border: solid 0.5px #39b54a;
     border-radius: 100%;
@@ -61,6 +80,8 @@ main {
     fill: #39b54a;
     color: #39b54a;
     padding: 3px;
+    justify-content: center;
+    align-items: center;
 }
 h4 {
     font-size: 24px;
@@ -88,6 +109,7 @@ p {
 }
 .descripciones { 
     margin: 2px;
+    display: none;
 }
 
 /* MAIN */
@@ -109,6 +131,36 @@ margin: 4px;
 }
 /* FOOTER */
 
+/* MEDIA QUERIES */
+
+@media (min-width: 361px){
+    .articulo {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .descripciones {
+        display: block;
+    }
+    .Header-Navbar {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
+}
+@media (min-width: 769px){
+    .articulo {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .descripciones {
+        display: block;
+    }
+    .Header-Navbar {
+        display: block;
+    }
+    .burger-menu {
+        display: none;
+    }
+}
 /*Tamaños Tipográficos
 Cuerpos de texto: 12px
 Titulares (Basado en tu última visita/Ofertas): 24px
