@@ -13,6 +13,17 @@ body {
 
 
 /* HEADER */
+.container-logo {
+    display: flex;
+    width: 50%;
+}
+.container-search {
+    width: 50%;
+    display: flex;
+}
+.container-lens {
+    position: relative;
+}
 header {
     background-color: #EAC926;
 }
@@ -22,8 +33,15 @@ header {
     justify-content: center;
     align-items: center;
 }
+.container-searcher{
+width: 100%;
+}
 .fa-search {
 background-color: #FFFFFF;
+position: absolute;
+right: 5px;
+top: -8px;
+width: 20px;
 }
 .Header-Navbar {
     display: none;
