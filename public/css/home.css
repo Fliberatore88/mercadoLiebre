@@ -79,7 +79,6 @@ article img {
     flex-wrap: wrap;
 }
 main section article .container-truck {
-    display: block;
     font-size: 16px;
     padding: 5px;
     width: 30px;
