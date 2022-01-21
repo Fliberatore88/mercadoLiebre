@@ -9,8 +9,12 @@ app.get ('/', (req,res) => {
     res.sendFile (path.resolve(__dirname, 'views','home.html'))
     
 })
-app.get ('/Ofertas', (req,res) => {
-    res.sendFile (path.resolve(__dirname, 'views','ofertas.html'))
+app.get ('/crea-tu-cuenta', (req,res) => {
+    res.sendFile (path.resolve(__dirname, 'views','register.html'))
+})
+
+app.get ('/login', (req,res) => {
+    res.sendFile (path.resolve(__dirname, 'views','login.html'))
 })
 
 app.listen(3001, (err) => {
