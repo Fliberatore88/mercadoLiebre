@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/register.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 rel="stylesheet" />
     <title>ML Registrate!</title>
@@ -94,17 +95,19 @@ rel="stylesheet" />
                     <input type="date" name="birthdate" id="birthdate" placeholder="Ingresá tu fecha de nacimiento" value="1996-12-17" min="1900-01-01" required>
                 </div>
                 <div container="user-profile">
-                    <label for="user-profile">Perfil del usuario</label>
-                    <input type="radio" name="user-profile" id="user-profile" value="Comprar"> Comprar
-                    <input type="radio" name="user-profile" id="user-profile" value="Vender"> Vender
+                    <label class="label-userprofile" for="user-profile">Perfil del usuario</label>
+                    <input class="input-userprofile" type="radio" name="user-profile" id="user-profile" value="Comprar"> Comprar
+                    <input class="input-userprofile" type="radio" name="user-profile" id="user-profile" value="Vender"> Vender
                 </div>
                 <div container="category-interest">
-                    <label for="category-interest">Categorías de interés</label>
-                    <input type="checkbox" name="category-interest" id="category-interest" value="Electro"> Electro
-                    <input type="checkbox" name="category-interest" id="category-interest" value="Moda"> Moda
-                    <input type="checkbox" name="category-interest" id="category-interest" value="Hogar"> Hogar
-                    <input type="checkbox" name="category-interest" id="category-interest" value="Juguetería"> Juguetería
-                    <input type="checkbox" name="category-interest" id="category-interest" value="Vida Sana"> Vida Sana
+                    <label class="input-categories" for="category-interest">Categorías de interés</label>
+                    <div class="onlyinputs-categories">
+                    <input class="input-categories" type="checkbox" name="category-interest" id="category-interest" value="Electro"> Electro
+                    <input class="input-categories" type="checkbox" name="category-interest" id="category-interest" value="Moda"> Moda
+                    <input class="input-categories" type="checkbox" name="category-interest" id="category-interest" value="Hogar"> Hogar
+                    <input class="input-categories" type="checkbox" name="category-interest" id="category-interest" value="Juguetería"> Juguetería
+                    <input class="input-categories" type="checkbox" name="category-interest" id="category-interest" value="Vida Sana"> Vida Sana
+                </div>
                 </div>
                 <div container="user-avatar">
                     <label for="user-avatar">Subí tu foto o avatar</label>
@@ -115,7 +118,7 @@ rel="stylesheet" />
                     <input type="password" name="password" id="password" placeholder="Creá tu contraseña" required>
                 </div>
                 <div container="repeat-password">
-                    <label for="repeat-password">Contraseña</label>
+                    <label for="repeat-password">Confirmá tu Contraseña</label>
                     <input type="password" name="repeat-password" id="repeat-password" placeholder="Confirmá tu contraseña" required>
                 </div>
                 <button type="submit">Enviar</button>

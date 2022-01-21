@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+form {
+    text-align: center;
+}
+label {
+    width: 100%;
+}
+input { 
+    width: 100%;
+}
+button {
+    width: 100%;
+}
+.label-userprofile {
+    width: 10%;
+}
+.input-userprofile {
+    width: 15%;
+}
+.label-categories {
+    width: 100%;
+}
+.input-categories {
+    width: 100%;
+}
+.onlyinputs-categories {
+    text-align: left;
+}
