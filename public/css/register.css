@@ -21,12 +21,37 @@ button {
 .input-userprofile {
     width: 15%;
 }
+#username {
+    text-align: center;
+}
+#name-lastname {
+    text-align: center;
+}
+#birthdate {
+    text-align: center;
+    padding-left: 40px
+}
+#electro, #moda, #hogar, #jugueteria, #vida-sana {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.electro, .moda, .hogar, .jugueteria, .vida-sana {
+    position: absolute;
+    right: 25%;
+}
+
 .label-categories {
     width: 100%;
+    margin-bottom: 3px;
 }
 .input-categories {
     width: 100%;
+    text-align: center;
 }
+
 .onlyinputs-categories {
     text-align: left;
 }
