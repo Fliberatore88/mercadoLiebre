@@ -16,6 +16,7 @@ body {
 .container-logo {
     display: flex;
     width: 50%;
+    margin-right: 20px;
 }
 .container-search {
     width: 50%;
@@ -23,6 +24,8 @@ body {
 }
 .container-lens {
     position: relative;
+    width: 50%;
+    margin-left: 10px;
 }
 header {
     background-color: #EAC926;
@@ -32,6 +35,7 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-left: 5px
 }
 .container-searcher{
 width: 100%;
@@ -39,12 +43,15 @@ width: 100%;
 .fa-search {
 background-color: #FFFFFF;
 position: absolute;
-right: 5px;
+right: 10px;
 top: -8px;
-width: 20px;
 }
 .Header-Navbar {
     display: none;
+}
+.nav-list { 
+    display: flex;
+    flex-wrap: wrap;
 }
 #icon-subtitle {
     display: flex;
@@ -191,6 +198,27 @@ margin: 4px;
     .burger-menu {
         display: none;
     }
+    .container-logo {
+        width: 30%;
+        margin-right: 20px;
+    }
+    .container-search {
+        width: 30%;
+        display: flex;
+    }
+    .container-lens {
+        position: relative;
+        width: 30%;
+        margin-left: 10px;
+    }
+    .logo-search-subtitle {
+        display: flex;
+        width: 100%;
+    }
+    #icon-subtitle {
+        width: 30%;
+        margin-left: 30%;
+    }
 }
 @media (min-width: 769px){
     .products-last-visit article, 
@@ -209,6 +237,27 @@ margin: 4px;
     }
     .burger-menu {
         display: none;
+    }
+    .container-logo {
+        width: 30%;
+        margin-right: 20px;
+    }
+    .container-search {
+        width: 30%;
+        display: flex;
+    }
+    .container-lens {
+        position: relative;
+        width: 30%;
+        margin-left: 10px;
+    }
+    .logo-search-subtitle {
+        display: flex;
+        width: 100%;
+    }
+    #icon-subtitle {
+        width: 30%;
+        margin-left: 30%;
     }
 }
 /*Tamaños Tipográficos
