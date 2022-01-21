@@ -1,9 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #ebebeb;
+    background-color: #FFFFFF;
 }
 form {
     text-align: center;
+    background-color: #ebebeb;
 }
 label {
     width: 100%;
