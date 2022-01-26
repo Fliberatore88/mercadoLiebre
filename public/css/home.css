@@ -17,6 +17,7 @@ body {
     display: flex;
     width: 50%;
     margin-right: 20px;
+    margin-bottom: 5px;
 }
 .container-search {
     width: 50%;
@@ -27,19 +28,20 @@ body {
     width: 50%;
     margin-left: 10px;
 }
+.container-searcher{
+    width: 100%;
+    }
+#search-lens {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px
+    }
 header {
     background-color: #EAC926;
 }
-#search-lens {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5px
-}
-.container-searcher{
-width: 100%;
-}
+
 .fa-search {
 background-color: #FFFFFF;
 position: absolute;
@@ -49,14 +51,36 @@ top: -8px;
 .Header-Navbar {
     display: none;
 }
-.nav-list { 
+.container-nav-list { 
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+.nav-list1, .nav-list2 {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 5px;
+}
+.nav-list1 a, .nav-list2 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+.li-header {
+    margin-right: 10px;
+    list-style: none;
 }
 #icon-subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 .burger-menu{
     text-align: center;
@@ -215,7 +239,7 @@ margin: 4px;
         display: flex;
         width: 100%;
     }
-    #icon-subtitle {
+#icon-subtitle {
         width: 30%;
         margin-left: 30%;
     }
