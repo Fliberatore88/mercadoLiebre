@@ -112,7 +112,8 @@ article img {
  width: 100%;
  max-width: 700px;
 }
-.articulo {
+
+.container-article article {
     width: 100%;
 }
 .main-article {
@@ -250,9 +251,17 @@ margin: 4px;
     }
     .container-prices-discounts .precios {
         margin-right: 10%;
+        padding-bottom: 10px;
     }
     .descripciones {
         display: block;
+    }
+    .container-article {
+        width: 50%;
+        padding: 10px;
+    }
+    .container-article article {
+        width: 100%;
     }
 }
 @media (min-width: 769px){
@@ -303,9 +312,17 @@ margin: 4px;
     }
     .container-prices-discounts .precios {
         margin-right: 23%;
+        padding-bottom: 20px;
     }
     .descripciones {
         display: block;
+    }
+    .container-article {
+        width: 25%;
+        padding: 10px;
+    }
+    .container-article article {
+        width: 100%;
     }
     /* MAIN MEDIA QUERY */
 }

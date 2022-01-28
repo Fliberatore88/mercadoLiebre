@@ -36,9 +36,10 @@ button {
     border: solid 1px #ddd;
     font-size: 14px;
     min-height: 40px;
-    width: 100%;
+    width: 90%;
     font-weight: 100;
     text-align: center;
+    margin-bottom: 10px;
 }
 .input-userprofile {
     width: 15%;
