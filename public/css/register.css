@@ -6,6 +6,9 @@ form {
     text-align: center;
     background-color: #ebebeb;
 }
+section {
+    margin-top: 20px;
+}
 label {
     width: 100%;
 }
