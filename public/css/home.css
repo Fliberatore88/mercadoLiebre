@@ -21,6 +21,7 @@ header {
     margin-bottom: 5px;
     margin-right: 10px;
 }
+
 .logo-search-subtitle {
     display: flex;
     width: 100%;
@@ -31,14 +32,12 @@ header {
 .container-searchbar {
     width: 50%;
 }
-.searchbar {
-    width: 100%;
-}
+
 .container-lens {
     width: 50%;
-    margin-left: 10px;
     position: relative;
     margin-bottom: 5px;
+    left: 90px;
 }
 .fa-search {
     background-color: #FFFFFF;
@@ -226,6 +225,7 @@ margin: 4px;
         position: relative;
         width: 30%;
         margin-left: 10px;
+        left: 0px;
     }
     .fa-search {
         left: 135px;
@@ -280,6 +280,7 @@ margin: 4px;
         position: relative;
         width: 30%;
         margin-left: 125px;
+        left: 0px;
     }
     .fa-search {
         background-color: #FFFFFF;
