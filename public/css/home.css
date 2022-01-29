@@ -121,6 +121,7 @@ article img {
     padding: 15px;
     border-top: solid 1px #ebebeb;
     position: relative;
+    cursor: pointer;
 }
 .products-last-visit, 
 .products-offers {
@@ -143,7 +144,12 @@ main section article .container-truck {
     justify-content: center;
     align-items: center;
    }
-   
+   .fa-truck {
+    transition: all .5s;
+   }
+   .fa-truck:hover {
+       transform: rotate(-90deg);
+   }
 h4 {
     font-size: 24px;
 }
@@ -246,8 +252,12 @@ margin: 4px;
     }
     .products-last-visit article, 
     .products-offers article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: all .4s;         
         width: 50%;
+    }
+    .products-last-visit article:hover, 
+    .products-offers article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .container-prices-discounts .precios {
         margin-right: 10%;
@@ -262,7 +272,16 @@ margin: 4px;
     }
     .container-article article {
         width: 100%;
+        height: 90%;
+        overflow: hidden;
+        transition: all .5s;
     }
+    .container-article article:hover {
+        height: 100%;   
+        }
+        .main section article .container-truck  {
+            top: 0px;
+        }
 }
 @media (min-width: 769px){
      /* HEADER MEDIA QUERY */
@@ -306,9 +325,13 @@ margin: 4px;
 
     /* MAIN MEDIA QUERY */
     .products-last-visit article, 
-    .products-offers article {
+    .products-offers article{
+        transition: all .4s;         
+        width: 50%;
+    }
+    .products-last-visit article:hover, 
+    .products-offers article:hover{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 25%;
     }
     .container-prices-discounts .precios {
         margin-right: 23%;
@@ -323,35 +346,15 @@ margin: 4px;
     }
     .container-article article {
         width: 100%;
+        height: 85%;
+        overflow: hidden;
+        transition: all .5s;
+    }
+    .container-article article:hover {
+        height: 100%;   
+        }
+    .main section article .container-truck  {
+        top: 0px;
     }
     /* MAIN MEDIA QUERY */
 }
-
-
-
-/*Tamaños Tipográficos
-Cuerpos de texto: 12px
-Titulares (Basado en tu última visita/Ofertas): 24px
-Precios: 18px
-Descuentos: 16px
-Descripciones: 16px*/
-
-/*● Paleta de colores
-Amarillo: #EAC926;
-Azul: #03264C;
-Celeste: #1259c3;
-Gris oscuro: #666;
-Gris claro: #ebebeb;
-Verde: #39b54a;
-*/
-/*Debemos centrar la sección main y que ocupe un 90% del ancho de la pantalla.
-● Entre cada artículo hay una separación de 10 píxeles.
-● Nos piden que manejemos el logo del envío, el precio, el porcentaje de descuento
-y la descripción del artículo como elementos de una caja dentro de la caja general
-del artículo.
-● Nos piden que la misma tenga un borde superior de 1 píxel, línea sólida y color
-#ebebeb.
-● Debe tener separado el contenido de sus bordes en 15 píxeles en cada uno de sus
-lados.*/
-
-/* el truck vino con esto en el HTML width="18" height="15" viewBox="0 0 18 15" */
