@@ -17,7 +17,7 @@ app.get ('/login', (req,res) => {
     res.sendFile (path.resolve(__dirname, 'views','login.html'))
 })
 
-app.listen(3001, (err) => {
+app.listen(process.env.PORT || 3001, (err) => {
     if (err){
         console.log('Error', err)
     }else {
